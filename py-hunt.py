@@ -5,7 +5,7 @@ import socket
 import getpass
 from urllib.request import urlopen 
 from termcolor import colored
-from bs4 import BeautifulSoup
+
 
 
 #banner
@@ -31,6 +31,7 @@ print(colored(" / .___/\__, /     /_/ /_/\__,_/_/ /_/\__/","cyan"))
 print(colored("/_/    /____/","cyan"))
 print('')
 print(colored("="*80,"red"))
+time.sleep(3)
 print(datetime.datetime.now())
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -38,7 +39,7 @@ ip = (input(colored("Enter the IP: ","yellow")))
 s_ip = socket.gethostbyname(ip)
 print(colored(s_ip,"green"))
 print(colored("Scanning start:  ","yellow"))
-time.sleep(3)
+time.sleep(2)
 
 # namp scanning start
 print(colored("_"*80,"red"))
