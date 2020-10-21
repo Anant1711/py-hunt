@@ -2,7 +2,6 @@ import os
 import time
 import datetime
 import socket
-import getpass
 from urllib.request import urlopen 
 from termcolor import colored
 
