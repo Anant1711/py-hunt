@@ -42,7 +42,8 @@ time.sleep(2)
 
 # namp scanning start
 print(colored("_"*80,"red"))
-print(colored("Scanning the ports and services: ","yellow"))
+print(colored("[*] Scanning the ports and services: ","yellow"))
+print('')
 print(os.system("%s %s" % ("nmap -sC -sV -p-",s_ip)))
 print(colored("_"*80,"red"))
 
