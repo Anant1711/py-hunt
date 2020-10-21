@@ -11,3 +11,6 @@
   
   >git clone https://github.com/danielmiessler/SecLists.git
   
+[<h2> How it works ? </h2>](https://anant1711.github.io/web/pyhunt.html) 
+
+  
