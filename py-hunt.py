@@ -50,6 +50,14 @@ print(colored("_"*80,"red"))
 # for finding hidden web directories
 print(colored("[*] Scanning Hidden Web Directories...","yellow"))
 print('')
-print(os.system("%s%s %s" % ("gobuster -q dir -u http://",s_ip,"-w /usr/share/SecLists/Discovery/Web-Content/big.txt -x .txt -x .php -x .js -x .html"))) 
+print(os.system("%s%s %s" % ("gobuster -q dir -u http://",s_ip,"-w /usr/share/SecLists/Discovery/Web-Content/big.txt -x .txt -x .php -x .js -x .html")))
+print('')
+print(colored("_"*80,"red"))
+# whois
+
+print(colored("[*] Whois information: ","yellow"))
+print('')
+print(os.system("%s %s " % ("whois " , s_ip )))
+print('')
 print(colored("scanning complete!","yellow",attrs=['reverse','blink']))
 print(colored("="*80,"red"))
