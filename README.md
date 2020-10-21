@@ -9,3 +9,5 @@
   
   > pip install colored
   
+  >git clone https://github.com/danielmiessler/SecLists.git
+  
