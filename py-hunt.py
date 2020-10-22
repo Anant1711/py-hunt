@@ -60,7 +60,7 @@ print(colored("      ___  __      __   __                  ___  __ ","magenta"))
 print(colored("|  | |__  |__)    /__` /  `  /\  |\ | |\ | |__  |__)","magenta"))
 print(colored("|/\| |___ |__)    .__/ \__, /~~\ | \| | \| |___ |  \ ","magenta"))
 print('')
-print(os.system("%s%s %s" % ("/usr/bin/gobuster -q dir -u http://",s_ip,"-w /usr/share/SecLists/Discovery/Web-Content/big.txt -x .txt -x .php -x .js -x .html")))
+print(os.system("%s%s %s" % ("/usr/bin/gobuster -q dir -u http://",s_ip,"-w /usr/share/SecLists/Discovery/Web-Content/big.txt -x .txt -x .php -x .js -x .html"))) #You can change the wordlist path if you want to use other dictionary.   
 print('')
 print(colored("_"*80,"red"))
 
