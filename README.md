@@ -4,6 +4,12 @@
 
 ![](https://github.com/Anant1711/web/blob/master/images/pyhunt/banner11.png)
 
+# functions
+  <h3>Port scanner</h3>
+  <h3>Web scanner</h3>
+  <h3>SMB scanner</h3>
+  <h3>Whois information</h3>
+
 # Requirement
   > python3+
   
