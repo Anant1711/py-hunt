@@ -44,13 +44,13 @@ time.sleep(2)
 print(colored("_"*80,"red"))
 print(colored("[*] Scanning the ports and services: ","yellow"))
 print('')
-print(os.system("%s %s" % ("nmap -sC -sV -p-",s_ip)))
+print(os.system("%s %s" % ("/usr/bin/nmap -sC -sV -p-",s_ip)))
 print(colored("_"*80,"red"))
 
 # for finding hidden web directories
 print(colored("[*] Scanning Hidden Web Directories...","yellow"))
 print('')
-print(os.system("%s%s %s" % ("gobuster -q dir -u http://",s_ip,"-w /usr/share/SecLists/Discovery/Web-Content/big.txt -x .txt -x .php -x .js -x .html")))
+print(os.system("%s%s %s" % ("/usr/bin/gobuster -q dir -u http://",s_ip,"-w /usr/share/SecLists/Discovery/Web-Content/big.txt -x .txt -x .php -x .js -x .html")))
 print('')
 print(colored("_"*80,"red"))
 # whois
